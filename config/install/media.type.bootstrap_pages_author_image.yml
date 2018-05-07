@@ -1,0 +1,13 @@
+uuid: dbc26744-1223-4478-a627-5f0f4def0b30
+langcode: en
+status: true
+dependencies: {  }
+id: bootstrap_pages_author_image
+label: 'Author Image'
+description: 'Used in author profiles.'
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

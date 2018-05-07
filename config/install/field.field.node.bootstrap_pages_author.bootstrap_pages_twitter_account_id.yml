@@ -1,0 +1,19 @@
+uuid: da4f82df-79ae-4f66-919d-27496b2b58ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twitter_account_id
+    - node.type.bp_author
+id: node.bp_author.field_twitter_account_id
+field_name: field_twitter_account_id
+entity_type: node
+bundle: bp_author
+label: 'Twitter Account ID'
+description: 'The numerical Twitter account ID for the author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

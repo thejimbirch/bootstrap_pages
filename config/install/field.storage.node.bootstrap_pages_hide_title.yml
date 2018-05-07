@@ -1,0 +1,24 @@
+uuid: d6ffc49b-ec3b-41f5-901f-04e8c7793c6e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_hide_title
+field_name: field_hide_title
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'yes'
+      label: 'Yes, Hide the title!'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

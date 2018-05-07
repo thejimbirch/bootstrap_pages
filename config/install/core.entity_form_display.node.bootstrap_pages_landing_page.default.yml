@@ -1,0 +1,180 @@
+uuid: fe24cf02-06b1-41a3-92a6-d03ab53a26bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.field_content
+    - field.field.node.landing_page.field_featured_image
+    - field.field.node.landing_page.field_hide_title
+    - field.field.node.landing_page.field_teaser
+    - field.field.node.landing_page.field_topic
+    - node.type.landing_page
+  module:
+    - field_group
+    - inline_entity_form
+    - paragraphs
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_administration:
+      children:
+        - group_summary
+        - group_structured_content
+        - group_categorization
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        label: Administration
+        direction: horizontal
+        id: ''
+        classes: ''
+      label: Administration
+      region: content
+    group_summary:
+      children:
+        - title
+        - field_teaser
+        - field_featured_image
+        - field_hide_title
+      parent_name: group_administration
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Summary
+      region: content
+    group_structured_content:
+      children:
+        - field_content
+      parent_name: group_administration
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Structured Content'
+      region: content
+    group_categorization:
+      children:
+        - field_topic
+      parent_name: group_administration
+      weight: 22
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: Categorization
+      region: content
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 7
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_content:
+    weight: 4
+    settings:
+      title: Section
+      title_plural: Sections
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+  field_featured_image:
+    weight: 3
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Image
+      label_plural: Images
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_hide_title:
+    weight: 4
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_teaser:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_topic:
+    weight: 5
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: Topic
+      label_plural: Topics
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  path:
+    type: path
+    weight: 8
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 10
+    third_party_settings: {  }
+    region: content
+  title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 6
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

@@ -1,0 +1,60 @@
+uuid: 7b2e63ac-2134-4bbf-ae68-bf4a0e864ee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.bootstrap_pages_featured_image_default
+    - image.style.bootstrap_pages_featured_image_lg_1x
+    - image.style.bootstrap_pages_featured_image_lg_2x
+    - image.style.bootstrap_pages_featured_image_md_1x
+    - image.style.bootstrap_pages_featured_image_md_2x
+    - image.style.bootstrap_pages_featured_image_sm_1x
+    - image.style.bootstrap_pages_featured_image_sm_2x
+    - image.style.bootstrap_pages_featured_image_xl_2x
+  module:
+    - bootstrap_pages
+id: bootstrap_pages_featured_image
+label: 'Featured Image'
+image_style_mappings:
+  -
+    breakpoint_id: bootstrap_pages.extra_large_devices
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_lg_1x
+  -
+    breakpoint_id: bootstrap_pages.extra_large_devices
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_xl_2x
+  -
+    breakpoint_id: bootstrap_pages.large_devices
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_lg_1x
+  -
+    breakpoint_id: bootstrap_pages.large_devices
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_lg_2x
+  -
+    breakpoint_id: bootstrap_pages.medium_devices
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_md_1x
+  -
+    breakpoint_id: bootstrap_pages.medium_devices
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_md_2x
+  -
+    breakpoint_id: bootstrap_pages.small_devices
+    multiplier: 1x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_sm_1x
+  -
+    breakpoint_id: bootstrap_pages.small_devices
+    multiplier: 2x
+    image_mapping_type: image_style
+    image_mapping: bootstrap_pages_featured_image_sm_2x
+breakpoint_group: bootstrap_pages
+fallback_image_style: bootstrap_pages_featured_image_default

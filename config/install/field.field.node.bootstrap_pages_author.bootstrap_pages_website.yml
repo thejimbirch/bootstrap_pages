@@ -1,0 +1,23 @@
+uuid: 73d17719-7980-4323-8521-9cdf4ef560f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_website
+    - node.type.bp_author
+  module:
+    - link
+id: node.bp_author.field_website
+field_name: field_website
+entity_type: node
+bundle: bp_author
+label: Website
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

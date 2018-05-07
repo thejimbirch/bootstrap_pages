@@ -1,0 +1,19 @@
+uuid: b6076f73-97fa-4abe-9780-90164312102e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_twitter_account
+    - node.type.bp_author
+id: node.bp_author.field_twitter_account
+field_name: field_twitter_account
+entity_type: node
+bundle: bp_author
+label: 'Twitter Account'
+description: 'The @username for the author; must include the @ symbol.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,23 @@
+uuid: e2061129-30ce-40a4-a5a1-e81d13be6d48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_profile_pinterest
+    - node.type.bp_author
+  module:
+    - link
+id: node.bp_author.field_profile_pinterest
+field_name: field_profile_pinterest
+entity_type: node
+bundle: bp_author
+label: 'Pinterest Profile'
+description: 'The URL for the author''s Pinterest profile.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

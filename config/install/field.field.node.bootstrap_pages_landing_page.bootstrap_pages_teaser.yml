@@ -1,0 +1,21 @@
+uuid: bab98755-c6f8-44c5-b3e5-cec42589c239
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser
+    - node.type.landing_page
+  module:
+    - text
+id: node.landing_page.field_teaser
+field_name: field_teaser
+entity_type: node
+bundle: landing_page
+label: Teaser
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

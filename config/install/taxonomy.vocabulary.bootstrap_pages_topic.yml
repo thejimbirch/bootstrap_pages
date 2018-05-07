@@ -1,0 +1,9 @@
+uuid: 9e3c6531-74ab-48fb-91dc-7e2e5f40237c
+langcode: en
+status: true
+dependencies: {  }
+name: Topic
+vid: topic
+description: 'Subject or "tags" that are related to a piece of content.'
+hierarchy: 0
+weight: 0

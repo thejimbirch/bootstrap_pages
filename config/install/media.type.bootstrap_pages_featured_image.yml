@@ -1,0 +1,13 @@
+uuid: 1fe7c570-9fb8-4126-9940-5bbc6e41977c
+langcode: en
+status: true
+dependencies: {  }
+id: bp_featured_image
+label: 'Featured Image'
+description: 'Used in articles and pages to set an featured image for the content display, and social networks. '
+source: image
+queue_thumbnail_downloads: false
+new_revision: true
+source_configuration:
+  source_field: field_media_image
+field_map: {  }

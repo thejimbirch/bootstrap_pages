@@ -1,0 +1,239 @@
+uuid: 538cdd5f-a053-4ee9-8203-15a42126a516
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bp_author.body
+    - field.field.node.bp_author.field_author_image
+    - field.field.node.bp_author.field_profile_drupal
+    - field.field.node.bp_author.field_profile_facebook
+    - field.field.node.bp_author.field_profile_github
+    - field.field.node.bp_author.field_profile_google_plus
+    - field.field.node.bp_author.field_profile_instagram
+    - field.field.node.bp_author.field_profile_linkedin
+    - field.field.node.bp_author.field_profile_pinterest
+    - field.field.node.bp_author.field_profile_youtube
+    - field.field.node.bp_author.field_twitter_account
+    - field.field.node.bp_author.field_twitter_account_id
+    - field.field.node.bp_author.field_website
+    - node.type.bp_author
+  module:
+    - field_group
+    - inline_entity_form
+    - link
+    - path
+    - text
+third_party_settings:
+  field_group:
+    group_administration:
+      children:
+        - group_content
+        - group_social_profiles
+      parent_name: ''
+      weight: 0
+      format_type: tabs
+      format_settings:
+        id: ''
+        classes: ''
+        direction: horizontal
+      label: Administration
+      region: content
+    group_content:
+      children:
+        - title
+        - body
+        - field_author_image
+      parent_name: group_administration
+      weight: 20
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: open
+        description: ''
+        required_fields: true
+      label: Content
+      region: content
+    group_social_profiles:
+      children:
+        - field_profile_drupal
+        - field_profile_facebook
+        - field_profile_github
+        - field_profile_google_plus
+        - field_profile_instagram
+        - field_profile_linkedin
+        - field_profile_pinterest
+        - field_twitter_account
+        - field_twitter_account_id
+        - field_profile_youtube
+        - field_website
+      parent_name: group_administration
+      weight: 21
+      format_type: tab
+      format_settings:
+        id: ''
+        classes: ''
+        formatter: closed
+        description: ''
+        required_fields: true
+      label: 'Social Profiles'
+      region: content
+id: node.bp_author.default
+targetEntityType: node
+bundle: bp_author
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 1
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_author_image:
+    weight: 2
+    settings:
+      form_mode: default
+      override_labels: true
+      label_singular: 'Author Image'
+      label_plural: 'Author Images'
+      allow_new: true
+      allow_existing: true
+      match_operator: CONTAINS
+    third_party_settings: {  }
+    type: inline_entity_form_complex
+    region: content
+  field_profile_drupal:
+    weight: 31
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_facebook:
+    weight: 32
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_github:
+    weight: 33
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_google_plus:
+    weight: 34
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_instagram:
+    weight: 35
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_linkedin:
+    weight: 36
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_pinterest:
+    weight: 37
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_profile_youtube:
+    weight: 40
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_twitter_account:
+    weight: 38
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_twitter_account_id:
+    weight: 39
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_website:
+    weight: 41
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  path:
+    type: path
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 6
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  promote: true
+  sticky: true

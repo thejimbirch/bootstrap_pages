@@ -1,0 +1,21 @@
+uuid: aa369966-df36-4f80-805b-698755bd69ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_caption
+    - media.type.bp_featured_image
+  module:
+    - text
+id: media.bp_featured_image.field_caption
+field_name: field_caption
+entity_type: media
+bundle: bp_featured_image
+label: 'Image Caption'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

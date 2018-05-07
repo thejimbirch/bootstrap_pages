@@ -1,0 +1,28 @@
+uuid: 13933e11-66c8-4313-a634-66bfb7601ba1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author_image
+    - media.type.bootstrap_pages_author_image
+    - node.type.bp_author
+id: node.bp_author.field_author_image
+field_name: field_author_image
+entity_type: node
+bundle: bp_author
+label: 'Author Image'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      bootstrap_pages_author_image: bootstrap_pages_author_image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
