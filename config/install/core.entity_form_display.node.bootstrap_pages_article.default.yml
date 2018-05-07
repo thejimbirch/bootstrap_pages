@@ -1,17 +1,16 @@
-uuid: ac6ee5d0-2d60-4b43-a45c-47ac2422718a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.blog_post.field_author
-    - field.field.node.blog_post.field_category
-    - field.field.node.blog_post.field_content
-    - field.field.node.blog_post.field_featured_image
-    - field.field.node.blog_post.field_related_articles
-    - field.field.node.blog_post.field_teaser
-    - field.field.node.blog_post.field_topic
-    - field.field.node.blog_post.field_type
-    - node.type.blog_post
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_author
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_category
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_content
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_featured_image
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_related_articles
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_teaser
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_topic
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_type
+    - node.type.bootstrap_pages_article
   module:
     - entity_reference_revisions
     - field_group
@@ -21,12 +20,12 @@ dependencies:
     - text
 third_party_settings:
   field_group:
-    group_administration:
+    bootstrap_pages_group_administration:
       children:
-        - group_summary
-        - group_structured_content
-        - group_categorization
-        - group_related_content
+        - bootstrap_pages_group_summary
+        - bootstrap_pages_group_structured_content
+        - bootstrap_pages_group_categorization
+        - bootstrap_pages_group_related_content
       parent_name: ''
       weight: 0
       format_type: tabs
@@ -36,13 +35,13 @@ third_party_settings:
         direction: horizontal
       label: Administration
       region: content
-    group_summary:
+    bootstrap_pages_group_summary:
       children:
         - title
-        - field_teaser
-        - field_featured_image
-        - field_author
-      parent_name: group_administration
+        - bootstrap_pages_teaser
+        - bootstrap_pages_featured_image
+        - bootstrap_pages_author
+      parent_name: bootstrap_pages_group_administration
       weight: 2
       format_type: tab
       format_settings:
@@ -53,10 +52,10 @@ third_party_settings:
         required_fields: true
       label: Summary
       region: content
-    group_structured_content:
+    bootstrap_pages_group_structured_content:
       children:
-        - field_content
-      parent_name: group_administration
+        - bootstrap_pages_content
+      parent_name: bootstrap_pages_group_administration
       weight: 3
       format_type: tab
       format_settings:
@@ -67,12 +66,12 @@ third_party_settings:
         required_fields: true
       label: 'Structured Content'
       region: content
-    group_categorization:
+    bootstrap_pages_group_categorization:
       children:
-        - field_type
-        - field_category
-        - field_topic
-      parent_name: group_administration
+        - bootstrap_pages_type
+        - bootstrap_pages_category
+        - bootstrap_pages_topic
+      parent_name: bootstrap_pages_group_administration
       weight: 4
       format_type: tab
       format_settings:
@@ -83,10 +82,10 @@ third_party_settings:
         required_fields: true
       label: Categorization
       region: content
-    group_related_content:
+    bootstrap_pages_group_related_content:
       children:
-        - field_related_articles
-      parent_name: group_administration
+        - bootstrap_pages_related_articles
+      parent_name: bootstrap_pages_group_administration
       weight: 5
       format_type: tab
       format_settings:
@@ -97,9 +96,9 @@ third_party_settings:
         required_fields: true
       label: 'Related Content'
       region: content
-id: node.blog_post.default
+id: node.bootstrap_pages_article.default
 targetEntityType: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 mode: default
 content:
   created:
@@ -108,7 +107,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_author:
+  bootstrap_pages_author:
     weight: 4
     settings:
       form_mode: default
@@ -121,7 +120,7 @@ content:
     third_party_settings: {  }
     type: inline_entity_form_complex
     region: content
-  field_category:
+  bootstrap_pages_category:
     weight: 5
     settings:
       form_mode: default
@@ -134,7 +133,7 @@ content:
     third_party_settings: {  }
     type: inline_entity_form_complex
     region: content
-  field_content:
+  bootstrap_pages_content:
     type: entity_reference_paragraphs
     weight: 3
     settings:
@@ -146,7 +145,7 @@ content:
       default_paragraph_type: ''
     third_party_settings: {  }
     region: content
-  field_featured_image:
+  bootstrap_pages_featured_image:
     weight: 3
     settings:
       form_mode: default
@@ -159,7 +158,7 @@ content:
     third_party_settings: {  }
     type: inline_entity_form_complex
     region: content
-  field_related_articles:
+  bootstrap_pages_related_articles:
     weight: 7
     settings:
       match_operator: CONTAINS
@@ -168,7 +167,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_autocomplete
     region: content
-  field_teaser:
+  bootstrap_pages_teaser:
     type: text_textarea
     weight: 2
     region: content
@@ -176,7 +175,7 @@ content:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
-  field_topic:
+  bootstrap_pages_topic:
     weight: 6
     settings:
       form_mode: default
@@ -189,7 +188,7 @@ content:
     third_party_settings: {  }
     type: inline_entity_form_complex
     region: content
-  field_type:
+  bootstrap_pages_type:
     weight: 4
     settings:
       form_mode: default

@@ -1,14 +1,13 @@
-uuid: fe24cf02-06b1-41a3-92a6-d03ab53a26bc
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.landing_page.field_content
-    - field.field.node.landing_page.field_featured_image
-    - field.field.node.landing_page.field_hide_title
-    - field.field.node.landing_page.field_teaser
-    - field.field.node.landing_page.field_topic
-    - node.type.landing_page
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_content
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_featured_image
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_hide_title
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_teaser
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_topic
+    - node.type.bootstrap_pages_landing_page
   module:
     - field_group
     - inline_entity_form
@@ -17,11 +16,11 @@ dependencies:
     - text
 third_party_settings:
   field_group:
-    group_administration:
+    bootstrap_pages_group_administration:
       children:
-        - group_summary
-        - group_structured_content
-        - group_categorization
+        - bootstrap_pages_group_summary
+        - bootstrap_pages_group_structured_content
+        - bootstrap_pages_group_categorization
       parent_name: ''
       weight: 0
       format_type: tabs
@@ -32,13 +31,13 @@ third_party_settings:
         classes: ''
       label: Administration
       region: content
-    group_summary:
+    bootstrap_pages_group_summary:
       children:
         - title
-        - field_teaser
-        - field_featured_image
-        - field_hide_title
-      parent_name: group_administration
+        - bootstrap_pages_teaser
+        - bootstrap_pages_featured_image
+        - bootstrap_pages_hide_title
+      parent_name: bootstrap_pages_group_administration
       weight: 20
       format_type: tab
       format_settings:
@@ -49,10 +48,10 @@ third_party_settings:
         required_fields: true
       label: Summary
       region: content
-    group_structured_content:
+    bootstrap_pages_group_structured_content:
       children:
-        - field_content
-      parent_name: group_administration
+        - bootstrap_pages_content
+      parent_name: bootstrap_pages_group_administration
       weight: 21
       format_type: tab
       format_settings:
@@ -63,10 +62,10 @@ third_party_settings:
         required_fields: true
       label: 'Structured Content'
       region: content
-    group_categorization:
+    bootstrap_pages_group_categorization:
       children:
-        - field_topic
-      parent_name: group_administration
+        - bootstrap_pages_topic
+      parent_name: bootstrap_pages_group_administration
       weight: 22
       format_type: tab
       format_settings:
@@ -77,9 +76,9 @@ third_party_settings:
         required_fields: true
       label: Categorization
       region: content
-id: node.landing_page.default
+id: node.bootstrap_pages_landing_page.default
 targetEntityType: node
-bundle: landing_page
+bundle: bootstrap_pages_landing_page
 mode: default
 content:
   created:
@@ -88,7 +87,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_content:
+  bootstrap_pages_content:
     weight: 4
     settings:
       title: Section
@@ -100,7 +99,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_paragraphs
     region: content
-  field_featured_image:
+  bootstrap_pages_featured_image:
     weight: 3
     settings:
       form_mode: default
@@ -113,13 +112,13 @@ content:
     third_party_settings: {  }
     type: inline_entity_form_complex
     region: content
-  field_hide_title:
+  bootstrap_pages_hide_title:
     weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
-  field_teaser:
+  bootstrap_pages_teaser:
     weight: 2
     settings:
       rows: 5
@@ -127,7 +126,7 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_topic:
+  bootstrap_pages_topic:
     weight: 5
     settings:
       form_mode: default

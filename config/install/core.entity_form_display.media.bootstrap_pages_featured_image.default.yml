@@ -1,19 +1,18 @@
-uuid: da6f9e4d-81ac-49d7-8aeb-9fbcf23d0a8e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.bp_featured_image.field_caption
-    - field.field.media.bp_featured_image.field_media_image
+    - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_caption
+    - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_media_image
     - image.style.thumbnail
-    - media.type.bp_featured_image
+    - media.type.bootstrap_pages_featured_image
   module:
     - image
     - path
     - text
-id: media.bp_featured_image.default
+id: media.bootstrap_pages_featured_image.default
 targetEntityType: media
-bundle: bp_featured_image
+bundle: bootstrap_pages_featured_image
 mode: default
 content:
   created:
@@ -22,7 +21,7 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_caption:
+  bootstrap_pages_caption:
     weight: 2
     settings:
       rows: 5
@@ -30,7 +29,7 @@ content:
     third_party_settings: {  }
     type: text_textarea
     region: content
-  field_media_image:
+  bootstrap_pages_media_image:
     weight: 1
     settings:
       progress_indicator: throbber
