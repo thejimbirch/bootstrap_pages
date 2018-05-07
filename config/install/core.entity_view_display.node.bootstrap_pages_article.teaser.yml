@@ -1,26 +1,25 @@
-uuid: 62907c37-3827-4890-ba80-07a33ff29f7f
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.blog_post.field_category
-    - field.field.node.blog_post.field_content
-    - field.field.node.blog_post.field_featured_image
-    - field.field.node.blog_post.field_related_articles
-    - field.field.node.blog_post.field_teaser
-    - field.field.node.blog_post.field_topic
-    - field.field.node.blog_post.field_type
-    - node.type.blog_post
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_category
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_content
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_featured_image
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_related_articles
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_teaser
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_topic
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_type
+    - node.type.bootstrap_pages_article
   module:
     - text
     - user
-id: node.blog_post.teaser
+id: node.bootstrap_pages_article.teaser
 targetEntityType: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 mode: teaser
 content:
-  field_featured_image:
+  bootstrap_pages_featured_image:
     type: entity_reference_entity_view
     weight: 0
     region: content
@@ -29,7 +28,7 @@ content:
       view_mode: teaser
       link: false
     third_party_settings: {  }
-  field_teaser:
+  bootstrap_pages_teaser:
     type: text_default
     weight: 1
     region: content
@@ -37,9 +36,9 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
-  field_category: true
-  field_content: true
-  field_related_articles: true
-  field_topic: true
-  field_type: true
+  bootstrap_pages_category: true
+  bootstrap_pages_content: true
+  bootstrap_pages_related_articles: true
+  bootstrap_pages_topic: true
+  bootstrap_pages_type: true
   links: true

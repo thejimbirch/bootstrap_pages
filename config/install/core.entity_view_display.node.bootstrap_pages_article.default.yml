@@ -1,26 +1,25 @@
-uuid: d06b05d0-7083-4b67-9971-a6aad62e52e2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.blog_post.field_author
-    - field.field.node.blog_post.field_category
-    - field.field.node.blog_post.field_content
-    - field.field.node.blog_post.field_featured_image
-    - field.field.node.blog_post.field_related_articles
-    - field.field.node.blog_post.field_teaser
-    - field.field.node.blog_post.field_topic
-    - field.field.node.blog_post.field_type
-    - node.type.blog_post
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_author
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_category
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_content
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_featured_image
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_related_articles
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_teaser
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_topic
+    - field.field.node.bootstrap_pages_article.bootstrap_pages_type
+    - node.type.bootstrap_pages_article
   module:
     - entity_reference_revisions
     - user
-id: node.blog_post.default
+id: node.bootstrap_pages_article.default
 targetEntityType: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 mode: default
 content:
-  field_author:
+  bootstrap_pages_author:
     weight: 1
     label: hidden
     settings:
@@ -28,7 +27,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_label
     region: content
-  field_content:
+  bootstrap_pages_content:
     type: entity_reference_revisions_entity_view
     weight: 2
     label: hidden
@@ -37,7 +36,7 @@ content:
       link: ''
     third_party_settings: {  }
     region: content
-  field_featured_image:
+  bootstrap_pages_featured_image:
     weight: 0
     label: hidden
     settings:
@@ -46,7 +45,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_entity_view
     region: content
-  field_related_articles:
+  bootstrap_pages_related_articles:
     weight: 3
     label: above
     settings:
@@ -56,8 +55,8 @@ content:
     type: entity_reference_revisions_entity_view
     region: content
 hidden:
-  field_category: true
-  field_teaser: true
-  field_topic: true
-  field_type: true
+  bootstrap_pages_category: true
+  bootstrap_pages_teaser: true
+  bootstrap_pages_topic: true
+  bootstrap_pages_type: true
   links: true

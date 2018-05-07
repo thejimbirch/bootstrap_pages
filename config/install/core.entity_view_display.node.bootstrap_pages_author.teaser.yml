@@ -1,20 +1,19 @@
-uuid: 364245b3-6e1b-46c6-84be-045adc443ae1
 langcode: en
 status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.bp_author.body
-    - field.field.node.bp_author.field_author_image
-    - node.type.bp_author
+    - field.field.node.bootstrap_pages_author.body
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_author_image
+    - node.type.bootstrap_pages_author
   module:
     - user
-id: node.bp_author.teaser
+id: node.bootstrap_pages_author.teaser
 targetEntityType: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 mode: teaser
 content: {  }
 hidden:
-  body: true
-  field_author_image: true
+  bootstrap_pages_body: true
+  bootstrap_pages_author_image: true
   links: true

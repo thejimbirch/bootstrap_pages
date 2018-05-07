@@ -1,24 +1,23 @@
-uuid: 7ccd7bdd-b4cb-4c4c-90bb-0bcd6dbe7bc5
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.landing_page.field_content
-    - field.field.node.landing_page.field_featured_image
-    - field.field.node.landing_page.field_hide_title
-    - field.field.node.landing_page.field_teaser
-    - field.field.node.landing_page.field_topic
-    - node.type.landing_page
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_content
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_featured_image
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_hide_title
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_teaser
+    - field.field.node.bootstrap_pages_landing_page.bootstrap_pages_topic
+    - node.type.bootstrap_pages_landing_page
   module:
     - entity_reference_revisions
     - options
     - user
-id: node.landing_page.default
+id: node.bootstrap_pages_landing_page.default
 targetEntityType: node
-bundle: landing_page
+bundle: bootstrap_pages_landing_page
 mode: default
 content:
-  field_content:
+  bootstrap_pages_content:
     weight: 1
     label: hidden
     settings:
@@ -27,7 +26,7 @@ content:
     third_party_settings: {  }
     type: entity_reference_revisions_entity_view
     region: content
-  field_featured_image:
+  bootstrap_pages_featured_image:
     type: entity_reference_entity_view
     weight: 0
     label: hidden
@@ -36,7 +35,7 @@ content:
       link: false
     third_party_settings: {  }
     region: content
-  field_hide_title:
+  bootstrap_pages_hide_title:
     weight: 2
     label: hidden
     settings: {  }
@@ -44,6 +43,6 @@ content:
     type: list_key
     region: content
 hidden:
-  field_teaser: true
-  field_topic: true
+  bootstrap_pages_teaser: true
+  bootstrap_pages_topic: true
   links: true

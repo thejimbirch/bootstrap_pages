@@ -1,9 +1,8 @@
-uuid: 9e273ba7-7701-4f04-884d-2aa22e4f390f
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.bootstrap_pages_author_image.field_media_image
+    - field.field.media.bootstrap_pages_author_image.bootstrap_pages_media_image
     - media.type.bootstrap_pages_author_image
     - responsive_image.styles.bootstrap_pages_author_image
   module:
@@ -13,7 +12,7 @@ targetEntityType: media
 bundle: bootstrap_pages_author_image
 mode: default
 content:
-  field_media_image:
+  bootstrap_pages_media_image:
     weight: 0
     label: hidden
     settings:

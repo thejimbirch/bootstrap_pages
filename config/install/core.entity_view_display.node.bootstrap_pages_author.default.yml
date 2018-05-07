@@ -1,42 +1,41 @@
-uuid: eeff7972-dc30-4400-9014-5eed525c10fa
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.bp_author.body
-    - field.field.node.bp_author.field_author_image
-    - field.field.node.bp_author.field_profile_drupal
-    - field.field.node.bp_author.field_profile_facebook
-    - field.field.node.bp_author.field_profile_github
-    - field.field.node.bp_author.field_profile_google_plus
-    - field.field.node.bp_author.field_profile_instagram
-    - field.field.node.bp_author.field_profile_linkedin
-    - field.field.node.bp_author.field_profile_pinterest
-    - field.field.node.bp_author.field_profile_youtube
-    - field.field.node.bp_author.field_twitter_account
-    - field.field.node.bp_author.field_twitter_account_id
-    - field.field.node.bp_author.field_website
-    - node.type.bp_author
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_body
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_author_image
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_drupal
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_facebook
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_github
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_google_plus
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_instagram
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_linkedin
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_pinterest
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_profile_youtube
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_twitter_account
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_twitter_account_id
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_website
+    - node.type.bootstrap_pages_author
   module:
     - field_group
     - link
     - text
     - user
 third_party_settings:
-  field_group:
-    group_social_profiles:
+  bootstrap_pages_group:
+    bootstrap_pages_group_social_profiles:
       children:
-        - field_profile_drupal
-        - field_profile_facebook
-        - field_profile_github
-        - field_profile_google_plus
-        - field_profile_instagram
-        - field_profile_linkedin
-        - field_profile_pinterest
-        - field_twitter_account
-        - field_twitter_account_id
-        - field_profile_youtube
-        - field_website
+        - bootstrap_pages_profile_drupal
+        - bootstrap_pages_profile_facebook
+        - bootstrap_pages_profile_github
+        - bootstrap_pages_profile_google_plus
+        - bootstrap_pages_profile_instagram
+        - bootstrap_pages_profile_linkedin
+        - bootstrap_pages_profile_pinterest
+        - bootstrap_pages_twitter_account
+        - bootstrap_pages_twitter_account_id
+        - bootstrap_pages_profile_youtube
+        - bootstrap_pages_website
       parent_name: ''
       weight: 2
       format_type: html_element
@@ -51,19 +50,19 @@ third_party_settings:
         speed: fast
       label: 'Social Profiles'
       region: content
-id: node.bp_author.default
+id: node.bootstrap_pages_author.default
 targetEntityType: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 mode: default
 content:
-  body:
+  bootstrap_pages_body:
     label: hidden
     type: text_default
     weight: 1
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_author_image:
+  bootstrap_pages_author_image:
     type: entity_reference_entity_view
     weight: 0
     label: hidden
@@ -72,7 +71,7 @@ content:
       link: false
     third_party_settings: {  }
     region: content
-  field_profile_drupal:
+  bootstrap_pages_profile_drupal:
     weight: 11
     label: above
     settings:
@@ -84,7 +83,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_facebook:
+  bootstrap_pages_profile_facebook:
     weight: 12
     label: above
     settings:
@@ -96,7 +95,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_github:
+  bootstrap_pages_profile_github:
     weight: 13
     label: above
     settings:
@@ -108,7 +107,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_google_plus:
+  bootstrap_pages_profile_google_plus:
     weight: 14
     label: above
     settings:
@@ -120,7 +119,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_instagram:
+  bootstrap_pages_profile_instagram:
     weight: 15
     label: above
     settings:
@@ -132,7 +131,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_linkedin:
+  bootstrap_pages_profile_linkedin:
     weight: 16
     label: above
     settings:
@@ -144,7 +143,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_pinterest:
+  bootstrap_pages_profile_pinterest:
     weight: 17
     label: above
     settings:
@@ -156,7 +155,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_profile_youtube:
+  bootstrap_pages_profile_youtube:
     weight: 20
     label: above
     settings:
@@ -168,7 +167,7 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_twitter_account:
+  bootstrap_pages_twitter_account:
     weight: 18
     label: above
     settings:
@@ -176,7 +175,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_twitter_account_id:
+  bootstrap_pages_twitter_account_id:
     weight: 19
     label: above
     settings:
@@ -184,7 +183,7 @@ content:
     third_party_settings: {  }
     type: string
     region: content
-  field_website:
+  bootstrap_pages_website:
     weight: 21
     label: above
     settings:
