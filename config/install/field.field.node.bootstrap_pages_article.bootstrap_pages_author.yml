@@ -1,15 +1,14 @@
-uuid: 573cbb07-52b4-486f-a84c-7bb99de24cbb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_author
-    - node.type.blog_post
-    - node.type.bp_author
-id: node.blog_post.field_author
-field_name: field_author
+    - field.storage.node.bootstrap_pages_author
+    - node.type.bootstrap_pages_article
+    - node.type.bootstrap_pages_author
+id: node.bootstrap_pages_article.bootstrap_pages_author
+field_name: bootstrap_pages_author
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: Author
 description: ''
 required: false
@@ -20,7 +19,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      bp_author: bp_author
+      bootstrap_pages_author: bootstrap_pages_author
     sort:
       field: _none
     auto_create: false

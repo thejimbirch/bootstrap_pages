@@ -1,15 +1,14 @@
-uuid: 08e87356-2944-459b-93aa-9d2351ae8b8b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_type
-    - node.type.blog_post
-    - taxonomy.vocabulary.type
-id: node.blog_post.field_type
-field_name: field_type
+    - field.storage.node.bootstrap_pages_type
+    - node.type.bootstrap_pages_article
+    - taxonomy.vocabulary.bootstrap_pages_type
+id: node.bootstrap_pages_article.bootstrap_pages_type
+field_name: bootstrap_pages_type
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: Type
 description: ''
 required: false

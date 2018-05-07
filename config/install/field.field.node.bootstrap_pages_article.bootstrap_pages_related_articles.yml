@@ -1,16 +1,15 @@
-uuid: 6e353552-b627-4198-a057-6729d6976536
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_related_articles
-    - node.type.blog_post
+    - field.storage.node.bootstrap_pages_related_articles
+    - node.type.bootstrap_pages_article
   module:
     - entity_reference_revisions
-id: node.blog_post.field_related_articles
-field_name: field_related_articles
+id: node.bootstrap_pages_article.bootstrap_pages_related_articles
+field_name: bootstrap_pages_related_articles
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: 'Related Articles'
 description: ''
 required: false
@@ -21,7 +20,7 @@ settings:
   handler: 'default:node'
   handler_settings:
     target_bundles:
-      blog_post: blog_post
+      bootstrap_pages_article: bootstrap_pages_article
     sort:
       field: _none
     auto_create: false

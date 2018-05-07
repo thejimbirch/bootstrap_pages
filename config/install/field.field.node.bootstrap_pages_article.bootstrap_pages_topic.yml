@@ -1,15 +1,14 @@
-uuid: aaf7f799-7659-4052-8b3c-5114a8099582
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_topic
-    - node.type.blog_post
-    - taxonomy.vocabulary.topic
-id: node.blog_post.field_topic
-field_name: field_topic
+    - field.storage.node.bootstrap_pages_topic
+    - node.type.bootstrap_pages_article
+    - taxonomy.vocabulary.bootstrap_pages_topic
+id: node.bootstrap_pages_article.bootstrap_pages_topic
+field_name: bootstrap_pages_topic
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: Topic
 description: ''
 required: false

@@ -1,10 +1,9 @@
-uuid: c643d570-75e7-4177-8758-1474ab203a78
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_content
-    - node.type.blog_post
+    - field.storage.node.bootstrap_pages_content
+    - node.type.bootstrap_pages_article
     - paragraphs.paragraphs_type.bp_accordion
     - paragraphs.paragraphs_type.bp_blank
     - paragraphs.paragraphs_type.bp_block
@@ -20,10 +19,10 @@ dependencies:
     - paragraphs.paragraphs_type.bp_view
   module:
     - entity_reference_revisions
-id: node.blog_post.field_content
-field_name: field_content
+id: node.bootstrap_pages_article.bootstrap_pages_content
+field_name: bootstrap_pages_content
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: Content
 description: ''
 required: false

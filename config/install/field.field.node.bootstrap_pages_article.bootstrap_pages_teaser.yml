@@ -1,16 +1,15 @@
-uuid: a84db3a5-6bd3-49d5-856a-c56a6f257a01
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_teaser
-    - node.type.blog_post
+    - field.storage.node.bootstrap_pages_teaser
+    - node.type.bootstrap_pages_article
   module:
     - text
-id: node.blog_post.field_teaser
-field_name: field_teaser
+id: node.bootstrap_pages_article.bootstrap_pages_teaser
+field_name: bootstrap_pages_teaser
 entity_type: node
-bundle: blog_post
+bundle: bootstrap_pages_article
 label: Teaser
 description: ''
 required: false
