@@ -1,9 +1,8 @@
-uuid: 15d09deb-268b-4fb5-aa79-871ac2e920bc
 langcode: en
 status: true
 dependencies: {  }
 name: Category
-vid: blog_category
+vid: bootstrap_pages_category
 description: 'Provides another way to categorize your content and present filter lists to your users.'
 hierarchy: 0
 weight: 0

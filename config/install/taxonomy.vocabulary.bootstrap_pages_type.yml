@@ -1,9 +1,8 @@
-uuid: 37f20a62-e869-43a5-b68a-93b97c929d8d
 langcode: en
 status: true
 dependencies: {  }
 name: Type
-vid: type
+vid: bootstrap_pages_type
 description: 'Used to create lists of articles by their type.  Common Types are Blog, News and Press Releases.'
 hierarchy: 0
 weight: 0
