@@ -1,16 +1,15 @@
-uuid: bab98755-c6f8-44c5-b3e5-cec42589c239
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_teaser
-    - node.type.landing_page
+    - field.storage.node.bootstrap_pages_teaser
+    - node.type.bootstrap_pages_landing_page
   module:
     - text
-id: node.landing_page.field_teaser
-field_name: field_teaser
+id: node.bootstrap_pages_landing_page.bootstrap_pages_teaser
+field_name: bootstrap_pages_teaser
 entity_type: node
-bundle: landing_page
+bundle: bootstrap_pages_landing_page
 label: Teaser
 description: ''
 required: false

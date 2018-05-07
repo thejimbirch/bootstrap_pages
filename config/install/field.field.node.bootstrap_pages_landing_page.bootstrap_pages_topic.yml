@@ -1,15 +1,14 @@
-uuid: 921db1a4-fe4e-417b-ba5e-e564228e3ee6
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_topic
-    - node.type.landing_page
-    - taxonomy.vocabulary.topic
-id: node.landing_page.field_topic
-field_name: field_topic
+    - field.storage.node.bootstrap_pages_topic
+    - node.type.bootstrap_pages_landing_page
+    - taxonomy.vocabulary.bootstrap_pages_topic
+id: node.bootstrap_pages_landing_page.bootstrap_pages_topic
+field_name: bootstrap_pages_topic
 entity_type: node
-bundle: landing_page
+bundle: bootstrap_pages_landing_page
 label: Topic
 description: ''
 required: false
@@ -20,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      topic: topic
+      bootstrap_pages_topic: bootstrap_pages_topic
     sort:
       field: _none
     auto_create: false
