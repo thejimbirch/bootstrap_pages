@@ -1,14 +1,13 @@
-uuid: 89bf6a4f-043a-40e3-b469-344d8c8e3367
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_media_image
+    - field.storage.media.bootstrap_pages_media_image
     - media.type.bootstrap_pages_author_image
   module:
     - image
-id: media.bootstrap_pages_author_image.field_media_image
-field_name: field_media_image
+id: media.bootstrap_pages_author_image.bootstrap_pages_media_image
+field_name: bootstrap_pages_media_image
 entity_type: media
 bundle: bootstrap_pages_author_image
 label: Image

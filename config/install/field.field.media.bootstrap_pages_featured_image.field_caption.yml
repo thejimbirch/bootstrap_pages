@@ -1,16 +1,15 @@
-uuid: aa369966-df36-4f80-805b-698755bd69ba
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.media.field_caption
-    - media.type.bp_featured_image
+    - field.storage.media.bootstrap_pages_caption
+    - media.type.bootstrap_pages_featured_image
   module:
     - text
-id: media.bp_featured_image.field_caption
-field_name: field_caption
+id: media.bootstrap_pages_featured_image.bootstrap_pages_caption
+field_name: bootstrap_pages_caption
 entity_type: media
-bundle: bp_featured_image
+bundle: bootstrap_pages_featured_image
 label: 'Image Caption'
 description: ''
 required: false
