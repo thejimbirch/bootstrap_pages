@@ -1,16 +1,15 @@
-uuid: b50d1c4f-e37b-42df-81e3-babf4fc2281e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_youtube
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_youtube
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_youtube
-field_name: field_profile_youtube
+id: node.bootstrap_pages_author.bootstrap_pages_profile_youtube
+field_name: bootstrap_pages_profile_youtube
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'YouTube Profile'
 description: 'The URL for the author''s YouTube profile.'
 required: false

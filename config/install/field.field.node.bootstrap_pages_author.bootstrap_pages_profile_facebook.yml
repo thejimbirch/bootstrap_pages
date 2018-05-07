@@ -1,16 +1,15 @@
-uuid: 43febf95-d8cd-46d6-9b72-5b8537a6fb3d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_facebook
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_facebook
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_facebook
-field_name: field_profile_facebook
+id: node.bootstrap_pages_author.bootstrap_pages_profile_facebook
+field_name: bootstrap_pages_profile_facebook
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Facebook Profile'
 description: 'The URL for the author''s Facebook profile.'
 required: false

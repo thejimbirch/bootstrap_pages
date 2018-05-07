@@ -1,16 +1,15 @@
-uuid: 3c7e0543-d699-42a5-8bb2-18e68ddad351
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_linkedin
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_linkedin
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_linkedin
-field_name: field_profile_linkedin
+id: node.bootstrap_pages_author.bootstrap_pages_profile_linkedin
+field_name: bootstrap_pages_profile_linkedin
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'LinkedIn Profile'
 description: 'The URL for the author''s LinkedIn profile.'
 required: false

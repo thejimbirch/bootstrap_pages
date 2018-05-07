@@ -1,16 +1,15 @@
-uuid: e2061129-30ce-40a4-a5a1-e81d13be6d48
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_pinterest
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_pinterest
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_pinterest
-field_name: field_profile_pinterest
+id: node.bootstrap_pages_author.bootstrap_pages_profile_pinterest
+field_name: bootstrap_pages_profile_pinterest
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Pinterest Profile'
 description: 'The URL for the author''s Pinterest profile.'
 required: false

@@ -1,16 +1,15 @@
-uuid: 323f1e83-71e3-4779-8539-73d75a9a4edb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.body
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_body
+    - node.type.bootstrap_pages_author
   module:
     - text
-id: node.bp_author.body
-field_name: body
+id: node.bootstrap_pages_author.bootstrap_pages_body
+field_name: bootstrap_pages_body
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: Body
 description: ''
 required: false

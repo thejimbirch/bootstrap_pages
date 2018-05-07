@@ -1,16 +1,15 @@
-uuid: 621b6ad5-8239-4235-9582-06b6882a760b
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_instagram
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_instagram
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_instagram
-field_name: field_profile_instagram
+id: node.bootstrap_pages_author.bootstrap_pages_profile_instagram
+field_name: bootstrap_pages_profile_instagram
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Instagram Profile'
 description: 'The URL for the author''s Instagram profile.'
 required: false

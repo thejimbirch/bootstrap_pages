@@ -1,16 +1,15 @@
-uuid: 2385fa30-2559-49c8-a99c-5bb34eff7926
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_google_plus
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_google_plus
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_google_plus
-field_name: field_profile_google_plus
+id: node.bootstrap_pages_author.bootstrap_pages_profile_google_plus
+field_name: bootstrap_pages_profile_google_plus
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Google+ Profile'
 description: 'The URL for the author''s Google+ profile.'
 required: false

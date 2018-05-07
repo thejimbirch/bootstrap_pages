@@ -1,15 +1,14 @@
-uuid: 13933e11-66c8-4313-a634-66bfb7601ba1
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_author_image
+    - field.storage.node.bootstrap_pages_author_image
     - media.type.bootstrap_pages_author_image
-    - node.type.bp_author
-id: node.bp_author.field_author_image
-field_name: field_author_image
+    - node.type.bootstrap_pages_author
+id: node.bootstrap_pages_author.bootstrap_pages_author_image
+field_name: bootstrap_pages_author_image
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Author Image'
 description: ''
 required: false

@@ -1,16 +1,15 @@
-uuid: 8fa417f1-8b83-444a-ad2f-681a141b9d9e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_drupal
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_drupal
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_drupal
-field_name: field_profile_drupal
+id: node.bootstrap_pages_author.bootstrap_pages_profile_drupal
+field_name: bootstrap_pages_profile_drupal
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Drupal.org Profile'
 description: 'The URL for the author''s Drupal.org profile.'
 required: false

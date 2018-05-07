@@ -1,16 +1,15 @@
-uuid: e8d9921f-5a3c-450c-8296-a35fd1775249
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_profile_github
-    - node.type.bp_author
+    - field.storage.node.bootstrap_pages_profile_github
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_profile_github
-field_name: field_profile_github
+id: node.bootstrap_pages_author.bootstrap_pages_profile_github
+field_name: bootstrap_pages_profile_github
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Github Profile'
 description: 'The URL for the author''s Github profile.'
 required: false

@@ -1,16 +1,15 @@
-uuid: 73d17719-7980-4323-8521-9cdf4ef560f8
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_website
-    - node.type.bp_author
+    - node.type.bootstrap_pages_author
   module:
     - link
-id: node.bp_author.field_website
-field_name: field_website
+id: node.bootstrap_pages_author.bootstrap_pages_website
+field_name: bootstrap_pages_website
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: Website
 description: ''
 required: false

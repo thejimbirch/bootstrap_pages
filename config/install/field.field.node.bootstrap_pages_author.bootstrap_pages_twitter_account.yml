@@ -1,14 +1,13 @@
-uuid: b6076f73-97fa-4abe-9780-90164312102e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_twitter_account
-    - node.type.bp_author
-id: node.bp_author.field_twitter_account
-field_name: field_twitter_account
+    - field.storage.node.bootstrap_pages_twitter_account
+    - node.type.bootstrap_pages_author
+id: node.bootstrap_pages_author.bootstrap_pages_twitter_account
+field_name: bootstrap_pages_twitter_account
 entity_type: node
-bundle: bp_author
+bundle: bootstrap_pages_author
 label: 'Twitter Account'
 description: 'The @username for the author; must include the @ symbol.'
 required: false
