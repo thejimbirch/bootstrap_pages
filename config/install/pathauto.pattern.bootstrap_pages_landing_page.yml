@@ -1,22 +1,19 @@
-uuid: 0a87e86d-221f-4b37-8acc-29f34baa07d2
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: page
-label: Page
+id: bootstrap_pages_landing_page
+label: Landing Page
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  9ab26acb-bb15-4712-a92d-62cd87df35a9:
-    id: node_type
-    bundles:
-      landing_page: landing_page
-    negate: false
-    context_mapping:
-      node: node
-    uuid: 9ab26acb-bb15-4712-a92d-62cd87df35a9
+  id: node_type
+  bundles:
+    landing_page: bootstrap_pages_landing_page
+  negate: false
+  context_mapping:
+    node: node
 selection_logic: and
 weight: -5
 relationships: {  }
