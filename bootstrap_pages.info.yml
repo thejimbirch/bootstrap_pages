@@ -6,9 +6,7 @@ package: Content
 dependencies:
   - drupal:bootstrap_paragraphs
   - drupal:breakpoint
-  - drupal:ckeditor
   - drupal:ctools
-  - drupal:editor
   - drupal:field
   - drupal:field_group
   - drupal:image
@@ -16,7 +14,6 @@ dependencies:
   - drupal:imagemagick
   - drupal:image_effects
   - drupal:inline_entity_form
-  - drupal:linkit
   - drupal:media
   - drupal:metatag
   - drupal:metatag_open_graph
@@ -24,7 +21,6 @@ dependencies:
   - drupal:path
   - drupal:pathauto
   - drupal:responsive_image
-  - drupal:simple_sitemap
   - drupal:system
   - drupal:taxonomy
   - drupal:views
