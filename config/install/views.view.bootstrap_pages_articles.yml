@@ -1,15 +1,14 @@
-uuid: ea3d4984-4c1b-43db-9f38-e976193152fe
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.blog_post
+    - node.type.bootstrap_pages_article
   module:
     - node
     - taxonomy
     - user
-id: duplicate_of_articles
+id: bootstrap_pages_articles
 label: Articles
 module: views
 description: 'Listings of articles.'
@@ -146,7 +145,7 @@ display:
           table: node_field_data
           field: type
           value:
-            blog_post: blog_post
+            article: article
           entity_type: node
           entity_field: type
           plugin_id: bundle
