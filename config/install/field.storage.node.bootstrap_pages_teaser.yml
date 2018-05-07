@@ -1,12 +1,11 @@
-uuid: 6199c17c-85da-420c-95e8-bb23b5d12377
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_teaser
-field_name: field_teaser
+id: node.bootstrap_pages_teaser
+field_name: bootstrap_pages_teaser
 entity_type: node
 type: text_long
 settings: {  }

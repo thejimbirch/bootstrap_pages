@@ -1,12 +1,11 @@
-uuid: 603f2acb-1182-4ea2-a292-99e8bad6ef51
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_drupal
-field_name: field_profile_drupal
+id: node.bootstrap_pages_profile_drupal
+field_name: bootstrap_pages_profile_drupal
 entity_type: node
 type: link
 settings: {  }

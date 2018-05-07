@@ -1,11 +1,10 @@
-uuid: 51ed1ffd-9667-4ac9-8052-0e7561b2be65
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_twitter_account_id
-field_name: field_twitter_account_id
+id: node.bootstrap_pages_twitter_account_id
+field_name: bootstrap_pages_twitter_account_id
 entity_type: node
 type: string
 settings:

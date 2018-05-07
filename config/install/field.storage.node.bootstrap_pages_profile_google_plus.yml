@@ -1,12 +1,11 @@
-uuid: 47b63e79-a499-4564-a938-9a9409eec071
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_google_plus
-field_name: field_profile_google_plus
+id: node.bootstrap_pages_profile_google_plus
+field_name: bootstrap_pages_profile_google_plus
 entity_type: node
 type: link
 settings: {  }

@@ -1,12 +1,11 @@
-uuid: 4abe09f1-2b5c-42b5-a862-e8903aa35a62
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_youtube
-field_name: field_profile_youtube
+id: node.bootstrap_pages_profile_youtube
+field_name: bootstrap_pages_profile_youtube
 entity_type: node
 type: link
 settings: {  }

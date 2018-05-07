@@ -1,12 +1,11 @@
-uuid: 9616836a-685c-4740-a509-87235e6bfa22
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_linkedin
-field_name: field_profile_linkedin
+id: node.bootstrap_pages_profile_linkedin
+field_name: bootstrap_pages_profile_linkedin
 entity_type: node
 type: link
 settings: {  }

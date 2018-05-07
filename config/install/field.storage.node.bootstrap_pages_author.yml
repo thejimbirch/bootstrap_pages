@@ -1,11 +1,10 @@
-uuid: 6134702c-71b4-4cb9-a4b1-a1564ebc2096
 langcode: en
 status: true
 dependencies:
   module:
     - node
-id: node.field_author
-field_name: field_author
+id: node.bootstrap_pages_author
+field_name: bootstrap_pages_author
 entity_type: node
 type: entity_reference
 settings:

@@ -1,12 +1,11 @@
-uuid: f914c459-9c86-4cb9-811d-3a5e4ecb0be2
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-id: node.field_category
-field_name: field_category
+id: node.bootstrap_pages_category
+field_name: bootstrap_pages_category
 entity_type: node
 type: entity_reference
 settings:

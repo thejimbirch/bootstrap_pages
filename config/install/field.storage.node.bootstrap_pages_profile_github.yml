@@ -1,12 +1,11 @@
-uuid: bc72e736-3f90-483a-ab0c-de135cdd144b
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_github
-field_name: field_profile_github
+id: node.bootstrap_pages_profile_github
+field_name: bootstrap_pages_profile_github
 entity_type: node
 type: link
 settings: {  }

@@ -1,12 +1,11 @@
-uuid: 217e9796-1c91-4c6c-818f-4e9ad3c849b5
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_profile_pinterest
-field_name: field_profile_pinterest
+id: node.bootstrap_pages_profile_pinterest
+field_name: bootstrap_pages_profile_pinterest
 entity_type: node
 type: link
 settings: {  }

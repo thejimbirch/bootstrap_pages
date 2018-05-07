@@ -1,12 +1,11 @@
-uuid: 68df8fc5-185a-440c-a9e3-5c40343d6dbc
 langcode: en
 status: true
 dependencies:
   module:
     - entity_reference_revisions
     - node
-id: node.field_related_articles
-field_name: field_related_articles
+id: node.bootstrap_pages_related_articles
+field_name: bootstrap_pages_related_articles
 entity_type: node
 type: entity_reference_revisions
 settings:

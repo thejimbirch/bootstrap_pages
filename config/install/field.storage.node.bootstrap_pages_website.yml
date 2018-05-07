@@ -1,12 +1,11 @@
-uuid: 365f34ce-a2f8-4478-bdbf-72843de25340
 langcode: en
 status: true
 dependencies:
   module:
     - link
     - node
-id: node.field_website
-field_name: field_website
+id: node.bootstrap_pages_website
+field_name: bootstrap_pages_website
 entity_type: node
 type: link
 settings: {  }

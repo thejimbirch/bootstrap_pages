@@ -1,14 +1,11 @@
-uuid: 8bb2b0a0-e196-45ff-b8a0-9e399fbe2eba
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-_core:
-  default_config_hash: EBUo7qOWqaiZaQ_RC9sLY5IoDKphS34v77VIHSACmVY
-id: node.body
-field_name: body
+id: node.bootstrap_pages_body
+field_name: bootstrap_pages_body
 entity_type: node
 type: text_with_summary
 settings: {  }

@@ -1,12 +1,11 @@
-uuid: d6ffc49b-ec3b-41f5-901f-04e8c7793c6e
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - options
-id: node.field_hide_title
-field_name: field_hide_title
+id: node.bootstrap_pages_hide_title
+field_name: bootstrap_pages_hide_title
 entity_type: node
 type: list_string
 settings:
