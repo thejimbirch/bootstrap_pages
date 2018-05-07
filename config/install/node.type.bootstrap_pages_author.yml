@@ -1,9 +1,8 @@
-uuid: 7688eb10-ed6d-4bdc-94f7-6ad8572c319c
 langcode: en
 status: true
 dependencies: {  }
 name: Author
-type: bp_author
+type: bootstrap_pages_author
 description: 'This content type is used to provide author information about Articles.'
 help: ''
 new_revision: true

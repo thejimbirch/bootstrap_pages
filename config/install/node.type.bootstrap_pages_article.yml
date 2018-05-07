@@ -1,9 +1,8 @@
-uuid: 2b9feb54-9ae2-4a29-9c8d-734859754ca3
 langcode: en
 status: true
 dependencies: {  }
 name: Article
-type: blog_post
+type: bootstrap_pages_article
 description: 'Articles are used in for things like Blogs, News, and Press Releases.'
 help: ''
 new_revision: true

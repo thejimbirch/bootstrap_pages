@@ -1,9 +1,8 @@
-uuid: 6c21c7e9-29df-4c71-9089-754b029a4c8c
 langcode: en
 status: true
 dependencies: {  }
-name: Page
-type: landing_page
+name: Landing Page
+type: bootstrap_pages_landing_page
 description: 'Use this content type to create standard and landing pages for the site.'
 help: ''
 new_revision: true
