@@ -1,12 +1,11 @@
-uuid: 83a1077b-3235-43b7-a7cd-a9e9e084109d
 langcode: en
 status: true
 dependencies:
   module:
     - media
     - text
-id: media.field_caption
-field_name: field_caption
+id: media.bootstrap_pages_caption
+field_name: bootstrap_pages_caption
 entity_type: media
 type: text_long
 settings: {  }
