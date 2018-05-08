@@ -19,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      topic: topic
+      bpg_topic: bpg_topic
     sort:
       field: _none
     auto_create: false
