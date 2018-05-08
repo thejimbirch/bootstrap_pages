@@ -52,7 +52,7 @@ REQUIREMENTS
 
 This module requires the following modules:
 
-  * [Bootstrap Paragraphs](https://www.drupal.org/project///www.drupal.org/project/bootstrap_paragraphs)
+  * [Bootstrap Paragraphs](https://www.drupal.org/project/bootstrap_paragraphs)
   * [ctools](https://www.drupal.org/project/ctools)
   * [Field Group](https://www.drupal.org/project/field_group)
   * [ImageAPI Optimize](https://www.drupal.org/project/imageapi_optimize)
