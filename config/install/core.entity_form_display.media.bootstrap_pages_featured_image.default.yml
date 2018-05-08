@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_caption
     - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_media_image
-    - image.style.thumbnail
+    - image.style.bootstrap_pages_thumbnail
     - media.type.bootstrap_pages_featured_image
   module:
     - image
@@ -33,7 +33,7 @@ content:
     weight: 1
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: bootstrap_pages_thumbnail
     third_party_settings: {  }
     type: image_image
     region: content
