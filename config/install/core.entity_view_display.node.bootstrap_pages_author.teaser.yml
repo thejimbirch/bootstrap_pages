@@ -3,7 +3,7 @@ status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.bootstrap_pages_author.body
+    - field.field.node.bootstrap_pages_author.bootstrap_pages_body
     - field.field.node.bootstrap_pages_author.bootstrap_pages_author_image
     - node.type.bootstrap_pages_author
   module:
