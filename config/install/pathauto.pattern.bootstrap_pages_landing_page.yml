@@ -4,16 +4,18 @@ dependencies:
   module:
     - node
 id: bootstrap_pages_landing_page
-label: Landing Page
+label: Page
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  id: node_type
-  bundles:
-    landing_page: bootstrap_pages_landing_page
-  negate: false
-  context_mapping:
-    node: node
+  9ab26acb-bb15-4712-a92d-62cd87df35a9:
+    id: node_type
+    bundles:
+      bootstrap_pages_landing_page: bootstrap_pages_landing_page
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 9ab26acb-bb15-4712-a92d-62cd87df35a9
 selection_logic: and
 weight: -5
 relationships: {  }
