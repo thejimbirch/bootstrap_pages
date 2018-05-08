@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: bootstrap_pages_thumbnail
-label: 'Thumbnail (100×100)'
+label: 'Bootstrap Pages Thumbnail'
 effects:
   1cfec298-8620-4749-b100-ccb6c4500779:
     uuid: 1cfec298-8620-4749-b100-ccb6c4500779
