@@ -1,0 +1,19 @@
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.bpg_author.bpg_body
+    - field.field.node.bpg_author.bpg_author_image
+    - node.type.bpg_author
+  module:
+    - user
+id: node.bpg_author.teaser
+targetEntityType: node
+bundle: bpg_author
+mode: teaser
+content: {  }
+hidden:
+  bpg_body: true
+  bpg_author_image: true
+  links: true

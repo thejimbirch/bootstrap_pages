@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Author
+type: bpg_author
+description: 'This content type is used to provide author information about Articles.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

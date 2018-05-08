@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-name: Type
-vid: bootstrap_pages_type
-description: 'Used to create lists of articles by their type.  Common Types are Blog, News and Press Releases.'
-hierarchy: 0
-weight: 0

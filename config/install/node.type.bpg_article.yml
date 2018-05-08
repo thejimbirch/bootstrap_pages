@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Article
+type: bpg_article
+description: 'Articles are used in for things like Blogs, News, and Press Releases.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

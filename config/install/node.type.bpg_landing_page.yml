@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Landing Page
+type: bpg_landing_page
+description: 'Use this content type to create standard and landing pages for the site.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
