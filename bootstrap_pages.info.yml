@@ -4,23 +4,27 @@ description: The Bootstrap Pages module will provide a suite of Content Types, T
 core: 8.x
 package: Content
 dependencies:
-  - drupal:bootstrap_paragraphs
   - drupal:breakpoint
-  - drupal:ctools
   - drupal:field
-  - drupal:field_group
   - drupal:image
-  - drupal:imageapi_optimize
-  - drupal:imagemagick
-  - drupal:image_effects
-  - drupal:inline_entity_form
   - drupal:media
-  - drupal:metatag
-  - drupal:metatag_open_graph
   - drupal:node
   - drupal:path
-  - drupal:pathauto
   - drupal:responsive_image
   - drupal:system
   - drupal:taxonomy
-  - drupal:views
+  - bootstrap_paragraphs:bootstrap_paragraphs
+  - ctools:ctools
+  - field_group:field_group
+  - imageapi_optimize:imageapi_optimize
+  - imagemagick:imagemagick
+  - image_effects:image_effects
+  - inline_entity_form:inline_entity_form
+  - metatag:metatag
+  - metatag:metatag_open_graph
+  - pathauto:pathauto
+  - schema_metatag:schema_metatag
+  - schema_metatag:schema_article
+  - schema_metatag:schema_person
+  - schema_metatag:schema_web_page
+  - views:views
