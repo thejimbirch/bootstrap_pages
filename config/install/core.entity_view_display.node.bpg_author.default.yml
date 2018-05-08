@@ -22,7 +22,7 @@ dependencies:
     - text
     - user
 third_party_settings:
-  bpg_group:
+  field_group:
     bpg_group_social_profiles:
       children:
         - bpg_profile_drupal
