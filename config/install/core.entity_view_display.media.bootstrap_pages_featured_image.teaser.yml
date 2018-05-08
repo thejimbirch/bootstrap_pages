@@ -2,17 +2,17 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.media.teaser
+    - core.entity_view_mode.media.bootstrap_pages_teaser
     - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_caption
     - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_media_image
     - media.type.bootstrap_pages_featured_image
     - responsive_image.styles.bootstrap_pages_featured_image
   module:
     - responsive_image
-id: media.bootstrap_pages_featured_image.teaser
+id: media.bootstrap_pages_featured_image.bootstrap_pages_teaser
 targetEntityType: media
 bundle: bootstrap_pages_featured_image
-mode: teaser
+mode: bootstrap_pages_teaser
 content:
   bootstrap_pages_media_image:
     weight: 0
