@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_website
+    - field.storage.node.bootstrap_pages_website
     - node.type.bootstrap_pages_author
   module:
     - link
