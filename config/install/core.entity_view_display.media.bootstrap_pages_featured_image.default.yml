@@ -2,8 +2,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.media.bp_featured_image.bootstrap_pages_caption
-    - field.field.media.bp_featured_image.bootstrap_pages_media_image
+    - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_caption
+    - field.field.media.bootstrap_pages_featured_image.bootstrap_pages_media_image
     - media.type.bootstrap_pages_featured_image
     - responsive_image.styles.bootstrap_pages_featured_image
   module:
