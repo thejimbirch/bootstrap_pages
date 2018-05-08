@@ -16,42 +16,42 @@ id: bpg_featured_image
 label: 'Featured Image'
 image_style_mappings:
   -
-    breakpoint_id: bpg.extra_large_devices
+    breakpoint_id: bootstrap_pages.extra_large_devices
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_lg_1x
   -
-    breakpoint_id: bpg.extra_large_devices
+    breakpoint_id: bootstrap_pages.extra_large_devices
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_xl_2x
   -
-    breakpoint_id: bpg.large_devices
+    breakpoint_id: bootstrap_pages.large_devices
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_lg_1x
   -
-    breakpoint_id: bpg.large_devices
+    breakpoint_id: bootstrap_pages.large_devices
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_lg_2x
   -
-    breakpoint_id: bpg.medium_devices
+    breakpoint_id: bootstrap_pages.medium_devices
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_md_1x
   -
-    breakpoint_id: bpg.medium_devices
+    breakpoint_id: bootstrap_pages.medium_devices
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_md_2x
   -
-    breakpoint_id: bpg.small_devices
+    breakpoint_id: bootstrap_pages.small_devices
     multiplier: 1x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_sm_1x
   -
-    breakpoint_id: bpg.small_devices
+    breakpoint_id: bootstrap_pages.small_devices
     multiplier: 2x
     image_mapping_type: image_style
     image_mapping: bpg_featured_image_sm_2x
