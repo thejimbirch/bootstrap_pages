@@ -22,9 +22,9 @@ Views to work with the Bootstrap Paragraphs module.
   * Landing Page
 
 The content types are fully configured to have proper Meta tags and Schema.org
-markup; optimized, responsive images, preconfigured freindly URLs; and an
-organized administration.  Once installed, you hve control over changing what is
- in configuration, and overriding templates and styles in your theme.
+markup; optimized, responsive images, preconfigured friendly URLs; and an
+organized administration.  Once installed, you have control over changing what
+is in configuration, and overriding templates and styles in your theme.
 
 **Taxonomies**
 
