@@ -6,7 +6,7 @@ dependencies:
 id: bpg_article
 label: Article
 type: 'canonical_entities:node'
-pattern: '[node:field_type:entity]/[node:title]'
+pattern: '[node:bpg_type:entity]/[node:title]'
 selection_criteria:
   03ce9650-e9cf-44a2-ab2e-186285f4f52a:
     id: node_type
